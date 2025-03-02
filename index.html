@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="text-container">
+    <main id="home" class="hero-container"></main>
+      <!-- navbar -->
+      <header class="navbar">
+        <nav>
+          <div class="nav-container">
+            <ul class="li"><img class="logo" src="assets/images/wolf_logo.ico" alt="Logo"></ul>
+            <!-- Nav.links:  -->
+            <ul class="li"><a href="#home">Home</a></ul>
+            <ul class="li"><a href="#about">About</a></ul>
+            <ul class="li"><a href="#reviews">Reviews</a></ul>
+            <!-- Contact -->
+            <button><a href="#contact">Contact</a></button>
+          </div>
+        </nav>
+      </header>    
+      <!-- hero content -->
+      <section>
+        <div id="about" class="hero max-w">
+          <div class="left">
+            <!-- About -->
+            <p class="small-heading">
+              <!-- My name -->
+              Enock Tangus
+            </p>
+            <h2 class="main-heading">About</h2>
+            <!-- About -->
+            <p class="description">
+              <!-- what I do -->
+              “I am a professional academic writer with 5+ years of experience in delivering high-quality projects on time covering several academic disciplines. I have successfully assisted several students to complete projects on time and excel in their college, undergraduate and master’s levels. As my writing expertise is founded on years of experience, I believe that I am capable of handling projects in a wide range of subjects. I am also passionate about the tech industry and eager to learn about developing and maintaining innovative web applications. I am currently pursuing a software engineering program to grow and refine my web development skills.”
+            </p>
+          </div>
+          <div class="right">
+            <!-- my photo -->
+            <img src="assets/images/profile.png" alt="My Profile Image">
+          </div>
+        </div>
+      </section>
+      <section id="reviews">
+        <h2 class="main-heading">Customer Reviews</h2>
+          <div class="reviews">
+          <!-- Reviews -->      
+            <div class="customer1">
+              <span class="reviewer-name"><strong>Andrew</strong></span>
+              <p><em>Thanks!</em> I was amazed with the paper. The writer followed all the requirements and submitted it a day before the deadline. I checked it for plagiarism and none was detected. I really look forward to working with him in the future.</p> 
+            </div>
+            <div class="customer2">
+              <span class="reviewer-name"><strong>Jane</strong></span>
+              <p><em>Amazing.</em> I had a good experience with his writing service from last year. I scored a really good grade for my term paper and capstone project.</p>
+            </div>
+            <div class="customer3">
+              <span class="reviewer-name"><strong>Clare</strong></span>
+              <p><em>Best.</em> Every paper was completed on time. I passed all the tests with no less than ninety percent. I highly recommend his services to anyone.</p>
+            </div>
+            <div class="customer4">
+              <span class="reviewer-name"><strong>Gabriel</strong></span>
+              <p><em>Outstanding Service!</em> I am so happy I got good grades due to very high-quality papers. Now I worry less about my essays and papers.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <!-- Contact -->
+        <div id="contact" class="contact_section">
+          <h2 class="main-heading">Contact</h2>
+          <form>
+            <div>
+              <div>
+                <input type="text" placeholder="Full Name ">
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number">
+              </div>
+              <div>
+                <input type="email" placeholder="Email Address">
+              </div>
+              <div>
+                <input type="text" placeholder="Message" class="input_message">
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" id="btn">
+                  Send
+                </button>
+            </div>
+          </div>
+          </form>
+        </div>
+      </section>
+     </main>
+    </div>
+  <section>
+    <div class="footer">
+      <footer>
+        <p>
+          &copy 2025 | By Enock Tangus | <a id="github" href="https://github.com/Tan-dev202"><img src="assets/images/github-logo.png" alt="GitHub" target="_blank" title="GitHub"></a><a id="email" href="mailto:tanguskipngeno@gmail.com"><img src="assets/images/envelope.png" alt="Email" target="_blank" title="Email"> </a>
+        </p>
+      </footer>
+    </div>
+  </section>
+  <script src="index.js"></script>
+  </body>
+</html>
