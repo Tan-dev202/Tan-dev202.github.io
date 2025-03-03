@@ -147,7 +147,7 @@ button:hover {
   margin: 20px;
 }
 /* reviews section */
-.reviews {
+/* .reviews {
   width: 90%;
   padding-top: 20px;
   margin: 20px;
@@ -155,7 +155,7 @@ button:hover {
   gap: 30px;
   align-items: baseline;
   justify-items: baseline;
-}
+} */
 
 /* contact section */
 #contact h2 {
