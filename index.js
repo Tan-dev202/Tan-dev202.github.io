@@ -21,3 +21,11 @@ function mailAlert() {
 }
 
 mail.addEventListener('click', mailAlert);
+
+const linkedin = document.getElementById('linkedin');
+
+function linkAlert() {
+  alert('Redirecting to LinkedIn');
+}
+
+linkedin.addEventListener('click', linkAlert);

@@ -9,6 +9,7 @@ body,
 html {
   height: auto;
   background: transparent;
+  scroll-behavior: smooth;
 }
 
 .bg {
@@ -20,7 +21,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: blur(15px);
+  filter: blur(5px);
   z-index: -1;
 }
 
@@ -96,9 +97,10 @@ a:hover {
   width: 50px;
 }
 
-ul {
-  float: left;
-  align-items: left;
+.nav-container ul {
+  display: flex;
+	list-style: none;
+	gap: 10px;
 }
 
 button {
@@ -169,7 +171,7 @@ button:hover {
 
 
 .contact_section {
-  width: 70%;
+  width: 50%;
   padding: 35px 20px 0 20px;
   border-radius: 20px;
   margin-bottom: 50px;
@@ -193,7 +195,7 @@ form > div {
 input {
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-width: 1px;
   background-color: #dfdfdf;
 }
