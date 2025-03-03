@@ -169,10 +169,11 @@ button:hover {
 
 
 .contact_section {
-  width: 100%;
+  width: 70%;
   padding: 35px 20px 0 20px;
   border-radius: 20px;
   margin-bottom: 50px;
+  object-position: center;
 }
 
 form {
