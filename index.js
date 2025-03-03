@@ -1,23 +1,23 @@
 const input = document.getElementById('btn');
 
 function clickAlert() {
-  alert('Redirecting...');
+  alert('Sending message');
 }
 
 input.addEventListener('click', clickAlert);
 
 const git = document.getElementById('github');
 
-function clickAlert() {
-  alert('Redirecting...');
+function gitAlert() {
+  alert('Redirecting to GitHub');
 }
 
-git.addEventListener('click', clickAlert);
+git.addEventListener('click', gitAlert);
 
 const mail = document.getElementById('email');
 
-function clickAlert() {
-  alert('Redirecting...');
+function mailAlert() {
+  alert('Redirecting to Email');
 }
 
-mail.addEventListener('click', clickAlert);
+mail.addEventListener('click', mailAlert);
